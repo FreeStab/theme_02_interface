@@ -17,7 +17,7 @@
         
       },
       clock() {
-        
+       clockIn = !clockIn; 
       }
     },
   }

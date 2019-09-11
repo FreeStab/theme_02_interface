@@ -6,7 +6,17 @@
 
 <script>
   export default {
-    
+    methods: {
+      createWorkingTime() {
+        
+      },
+      updateWorkingTime() {
+        
+      },
+      deleteWorkingTime() {
+        
+      }
+    },
   }
 </script>
 

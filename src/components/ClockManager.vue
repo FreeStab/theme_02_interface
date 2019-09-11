@@ -6,7 +6,20 @@
 
 <script>
   export default {
-    
+    data() {
+      return {
+        startDateTime: null,
+        clockIn: false
+      }
+    },
+    methods: {
+      refresh() {
+        
+      },
+      clock() {
+        
+      }
+    },
   }
 </script>
 

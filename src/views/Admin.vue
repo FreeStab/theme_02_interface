@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <router-link to="/admin">Admin</router-link>
-<h1>Le Dashboard</h1>
+      <router-link to="/">Home</router-link>
+    <h1>La partie Admin</h1>
   </div>
 </template>
 

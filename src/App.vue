@@ -1,6 +1,7 @@
 /* eslint-disable */
 <template>
   <div id="app">
+    <User></User>
     <!--<div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -12,7 +13,6 @@
 
 <script>
 import User from '@/components/User.vue'
-
 export default {
   components: {
     User

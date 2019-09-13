@@ -1,18 +1,32 @@
 <template>
   <div class="home">
-    <router-link to="/admin">Admin</router-link>
-<h1>Le Dashboard</h1>
+    <ChartManager></ChartManager>
+    <WorkingTimes></WorkingTimes>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import ChartManager from "@/components/ChartManager.vue";
+import WorkingTimes from "@/components/WorkingTimes.vue";
 
 export default {
-  name: 'home',
+  name: "home",
   components: {
-    HelloWorld,
-  },
+    ChartManager,
+    WorkingTimes
+  }
 };
 </script>
+
+<style lang="scss" scoped>
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+}
+.working-times {
+
+}
+</style>

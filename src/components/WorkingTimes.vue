@@ -56,7 +56,9 @@ export default {
     };
   },
   methods: {
-    getWorkingTimes() {}
+    getWorkingTimes() {
+
+    },
   }
 };
 </script>

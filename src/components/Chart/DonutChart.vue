@@ -17,6 +17,12 @@
         :stroke-dasharray="calcPercent(item.value)"
         :stroke-dashoffset="calcOffset(percentList[key])"
       />
+      <circle
+      cx="15"
+        cy="15"
+        r="4"
+        fill="white"
+      />
     </svg>
     <div class="label-list">
       <div class="list-item__label" v-for="(item, key) in data" :key="key">
@@ -65,7 +71,13 @@ export default {
 svg {
     width: 150px;
     margin: 0 1rem;
-    transform: rotate(-90deg)
+}
+
+.slice {
+    transition: stroke-width 300ms;
+    &:hover{
+        stroke-width: 13;
+    }
 }
 
 .label-list {
